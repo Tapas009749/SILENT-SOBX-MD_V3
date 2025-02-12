@@ -78,20 +78,20 @@ ${translatedTafsirUrdu.text}\n
 ⚡🔮 *EXPLANATION (ENGLISH):*\n
 ${translatedTafsirEnglish.text}
 
-> © POWERED BY SILENTLOVER💙🫀`;
+> © POWERED BY ꔪlord madaraꔪ💙🫀`;
 
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+        image: { url: `https://files.catbox.moe/az39bi.jpeg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
           forwardingScore: 999,  
-          isForwarded: true,   
+          isForwarded: false,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363189714152560@newsletter', 
-            newsletterName: 'SILENT-SOBX-MD', 
+            newsletterName: 'ꔪlord madaraꔪ', 
             serverMessageId: 143
           }
         }
@@ -472,7 +472,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+                image: { url: `https://files.catbox.moe/az39bi.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -480,7 +480,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363189714152560@newsletter',
-                        newsletterName: 'SILENT-SOBX-MD',
+                        newsletterName: 'ꔪlord madaraꔪ',
                         serverMessageId: 143
                     }
                 }
@@ -489,7 +489,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://files.catbox.moe/f1cc7j.mp4' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
