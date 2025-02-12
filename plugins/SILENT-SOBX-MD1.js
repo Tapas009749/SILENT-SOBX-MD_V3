@@ -87,12 +87,12 @@ ${translatedTafsirEnglish.text}
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
-          forwardingScore: 999,  
+          forwardingScore:false,  
           isForwarded: false,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363189714152560@newsletter', 
             newsletterName: 'ꔪlord madaraꔪ', 
-            serverMessageId: 143
+            serverMessageId:77
           }
         }
       },
@@ -476,12 +476,12 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
-                    forwardingScore: 999,
+                    forwardingScore:false,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363189714152560@newsletter',
                         newsletterName: 'ꔪlord madaraꔪ',
-                        serverMessageId: 143
+                        serverMessageId:77
                     }
                 }
             },
