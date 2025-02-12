@@ -90,7 +90,7 @@ ${translatedTafsirEnglish.text}
           forwardingScore:000,  
           isForwarded: false,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363189714152560@newsletter', 
+            newsletterJid: '', 
             newsletterName: 'ꔪlord madaraꔪ', 
             serverMessageId:000
           }
@@ -479,7 +479,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     forwardingScore:false,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363189714152560@newsletter',
+                        newsletterJid: '',
                         newsletterName: 'ꔪlord madaraꔪ',
                         serverMessageId:77
                     }
