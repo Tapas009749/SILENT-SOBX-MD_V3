@@ -87,12 +87,12 @@ ${translatedTafsirEnglish.text}
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
-          forwardingScore:false,  
+          forwardingScore:000,  
           isForwarded: false,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363189714152560@newsletter', 
             newsletterName: 'ꔪlord madaraꔪ', 
-            serverMessageId:77
+            serverMessageId:000
           }
         }
       },
