@@ -21,7 +21,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "about",
-    alias: ["silentlover","whois"], 
+    alias: ["ꔪlord madaraꔪ","whois"], 
     react: "👑",
     desc: "get owner dec",
     category: "main",
@@ -30,7 +30,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let about = `
-*╭━━〔 SILENT-SOBX-MD 〕━━┈⊷*
+*╭━━〔 ꔪlord madaraꔪ 〕━━┈⊷*
 
 *👋 HELLO ${pushname}*
 
@@ -48,7 +48,7 @@ let about = `
 *╰━━━━━━━━━━━━━━━┈⊷*
 > *◆◆◆◆◆◆◆◆◆◆◆◆*
 
-*[ • SILENT-SOBX-MD - TEAM • ]*
+*[ • ꔪlord madaraꔪ • ]*
 *╭━━━〔 TEAM 〕━━━┈⊷*
 *┃★╭──────────────*
 *┃★│* *▢➠sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²*
@@ -64,14 +64,14 @@ let about = `
 *•────────────•⟢*
 `
 
-await conn.sendMessage(from,{image:{url:`https://i.ibb.co/SNvbJvY/Manul-Ofc-X.jpg`},caption:about,
+await conn.sendMessage(from,{image:{url:`https://files.catbox.moe/az39bi.jpeg`},caption:about,
                              contextInfo: {
     mentionedJid: [m.sender],
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363189714152560@newsletter',
-      newsletterName: 'SILENT-SOBX-MD',
+      newsletterName: 'ꔪlord madaraꔪ',
       serverMessageId: 999
     }
   }
