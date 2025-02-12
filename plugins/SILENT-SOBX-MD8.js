@@ -70,7 +70,7 @@ await conn.sendMessage(from,{image:{url:`https://files.catbox.moe/az39bi.jpeg`},
     forwardingScore: 000,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363189714152560@newsletter',
+      newsletterJid: '',
       newsletterName: 'ꔪlord madaraꔪ',
       serverMessageId: 00
     }
