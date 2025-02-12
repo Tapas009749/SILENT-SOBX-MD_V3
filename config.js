@@ -23,7 +23,7 @@ module.exports = {
     FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
     FAKE_TYPING: process.env.FAKE_TYPING || "true",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
-    CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
+    CURRENT_STATUS: process.env.CURRENT_STATUS || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
